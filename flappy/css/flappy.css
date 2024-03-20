@@ -81,3 +81,67 @@
 .restart-button:hover {
     background: #0d9e1e;
 }
+
+/* CSS para tablets */
+@media (max-width: 1024px) {
+    [div-flappy] {
+        height: 80vh;
+        width: 800px;
+    }
+
+    .passaro {
+        width: 40px;
+        left: calc(50% - 20px);
+    }
+
+    .barreira .borda {
+        height: 20px;
+        width: 90px;
+    }
+
+    .barreira .corpo {
+        height: 100px;
+        width: 70px;
+    }
+
+    .progresso {
+        font-size: 50px;
+    }
+
+    .restart-button {
+        font-size: 20px;
+        padding: 5px 10px;
+    }
+}
+
+/* CSS para telefones */
+@media (max-width: 480px) {
+    [div-flappy] {
+        height: 35vh; /* Adjusted from 40vh to 50vh */
+        width: 400px;
+    }
+
+    .passaro {
+        width: 30px;
+        left: calc(50% - 15px);
+    }
+
+    .barreira .borda {
+        height: 15px;
+        width: 60px;
+    }
+
+    .barreira .corpo {
+        height: 80px;
+        width: 50px;
+    }
+
+    .progresso {
+        font-size: 30px;
+    }
+
+    .restart-button {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+}
