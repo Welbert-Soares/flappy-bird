@@ -1,5 +1,11 @@
 <h1 align="center">🐦 Documentação do Flappy Bird 🐦</h1>
 
+## 🎮 Link para Jogar
+
+Pronto para a diversão? Você pode jogar o jogo diretamente no seu navegador! Clique no link abaixo para começar a aventura:
+
+[🕹️ Jogar Flappy Bird](https://welbert-soares.github.io/flappy-bird/)
+
 ## 📝 Introdução
 
 Este projeto foi desenvolvido individualmente, utilizando apenas HTML, CSS e JavaScript para manipular o DOM com orientação a objetos. Não possui fins comerciais, sendo apenas um exercício de programação.
